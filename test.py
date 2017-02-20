@@ -40,7 +40,7 @@ while 1:
             rNum.append(float(value['tweets']))
             rNum.append(float(value['followers']))
             c.send(rNum)
-            print "Sent one user..."
+            print "Sent one user...(Number of tweets, Number of followers)"
             print rNum
             rNum.clearData()
             time.sleep(st)  # wait here 1 second
