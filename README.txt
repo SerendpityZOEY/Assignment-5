@@ -24,7 +24,9 @@ data_collection.py: This script will fetch 300 users of CNNBreakingNews to creat
 
     if len(follower_list) >= 300:
         break
-fetch_test_data.py: This script fetch 50 users's information for test. stream.py: You can also use this script to test. Since it can only fetch 300 users each 15 minutes, you need to use fetch_test_data.py if you want to test more. test.py:Use this script to train and test.
+fetch_test_data.py: This script fetch 50 users's information for test.
+stream.py: You can also use this script to test. Since it can only fetch 300 users each 15 minutes, you need to use fetch_test_data.py if you want to test more.
+test.py:Use this script to train and test.(I strongly recommend you to use this script instead of stream.py)
 
 Wekinator Configuration
 
